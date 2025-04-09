@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.video-container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Max width for larger screens */
+    border: 2px solid #ccc; /* Optional border */
+    border-radius: 10px; /* Optional rounded corners */
+    overflow: hidden; /* Ensures the video fits within the border */
+}
+
+video {
+    width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="Health_Ad_Video_Template__Editable_(1080p).mp4" type="video/mp4">
+            <source src="Health_Ad_Video_Template__Editable_(1080p).mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
